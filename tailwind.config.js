@@ -6,10 +6,14 @@ module.exports = {
     "./layouts/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {   
-    fontSize: {
-      xxl: ['3.3rem', '4.5rem'],
-    },
+        extend: {
+      fontSize: {
+          xcl : '2.4rem',
+          xm : '0.875rem',
+          lg : '1.125rem',
+          xl : '1.25rem',
+         '2xl' : '1.5rem'
+     },
     },
     container: {
       padding: {
@@ -23,7 +27,6 @@ module.exports = {
     fontFamily: {
       sans : ["var(--font-inter)"]
     },
-    extend: {
       boxShadow: {
         "3xl": "-1px 34px 47px -29px rgb(32 32 32 / 100%)",
         "4xl": " 0vw 0vw 0.5vw 0vw rgb(32 32 32 / 20%)",
@@ -53,7 +56,6 @@ module.exports = {
           800: "#530B0B",
           900: "#210404",
         },
-      },
     },
   },
   daisyui: {

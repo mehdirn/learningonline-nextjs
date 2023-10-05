@@ -23,7 +23,6 @@ export default function Home() {
         ></link>
         <link rel="icon" href="/favicon.ico" />
         </Head>
-        <h1>سلام من مهدی هستم</h1>
         <Hero/>
         <Values/>
         <Teacher/>

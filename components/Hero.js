@@ -8,10 +8,10 @@ const Hero = () => {
         <Navbar />
         <div className="flex flex-col lg:flex-row justify-center  lg:justify-between items-center gap-5 mt-10">
           <div className="flex flex-col gap-5 lg:gap-10">
-            <p className="text-2xl sm:text-4xl md:text-xxl lg:text-xxl font-medium">
+            <p className="text-[3rem] leading-[3.5rem] sm:text-xcl md:text-xxl lg:text-xxl font-medium">
             <br className="lg:flex hidden"/>  روش منحصر به فرد
-برای یادگیری زبان های <br className="lg:flex hidden"/>
-خارجی به صورت آنلاین
+  برای یادگیری زبان های خارجی<br className="lg:flex hidden"/>
+ به صورت آنلاین
             </p>
             <p className="text-sm sm:text-base lg:text-lg text-gray-500">
               با سرعت بالا، با دسترسی مادام العمر <br  className="lg:flex hidden"/> در تلفن همراه و دسکتاپ، یاد بگیرید
